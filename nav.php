@@ -4,8 +4,8 @@
       <a id="logo" class="navbar-brand" href="#"><span><img id="logo-img" height="45" width="45" src="assets/img/logo.png"></span>WannaBe</a>
     </div>
     <ul id="menu" class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>  
+      <li class="active"><a href="index.php">Home</a></li>
+      <li><a href="aboutus.php">About</a></li>  
     </ul>
    
       <a id="login" class="btn btn-primary btn-lg pull-right" href="#" data-toggle="modal" data-target="#myModal"><span><i class="glyphicon glyphicon-user"></i></span>  Login Now</a>
