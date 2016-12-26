@@ -2,34 +2,46 @@
 	font-family: logo;
 	src: url(../font/malandrino_regular.ttf);
 }
+
+@font-face {
+	font-family: logo_bold;
+	src: url(../font/malandrino_bold.ttf);
+}
 /*font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
 
-	a{
+a{
 font-family: 'Roboto Condensed', sans-serif;
+}
+
+hr{
+	border: 0.5px solid #ccc;
 }
 /*Navbar Content*/
 .navbar-fixed-bottom, .navbar-fixed-top, .navbar-static-top {
     border-radius: 0;
     background-color: #76A7F7;
-    height: 53px;
+    height: 80px;
 }
 
 #menu a{
 	font-size: 20px;
 	color:white;
 	transition: 0.5s;
-	height: 53px;
+	height: 80px;
+	padding-top:35%;
+	
 }
 #menu a:hover{
-	
 	color:#76A7F7;
 }
 
 #logo {
+	  padding-top:25px;
 	  color: white;
-	  font-family: logo;
+font-family: logo;
+	
 	  font-size: 40px;
 }
 
@@ -38,7 +50,7 @@ margin-top:-13px;
 }
 
 #login{
-	margin-top: 8px;
+	margin-top: 13px;
 	margin-right: 40px;
 }
 
@@ -47,3 +59,128 @@ margin-top:-13px;
 .modal-content {
 	margin-top: 25%;
 }
+
+/*Slider*/
+#slider .carousel-inner .item{
+	height: 400px;
+
+}
+
+.shadow-text {
+	 text-shadow: 1px 1px #000;
+}
+
+/*End Slider*/
+
+
+
+/*About*/
+#about{
+	
+
+	height: 650px;
+}
+#about h2{
+	margin-top: 110px;
+	margin-bottom: 25px;
+	
+}
+.bold-head{
+font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+.whatwedo{
+font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+.whatwedo p{
+	font-size: 24px;
+}
+
+.whatwedo h3{
+	font-size: 30px;
+}
+/*END About*/
+
+/*Short Video*/
+#short_video{
+	background-color:#CCC;
+	height: 630px;
+
+}
+
+#short_video h2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+
+}
+
+
+/*END Short Video*/
+
+/*Short Video*/
+#short_video{
+	background-color:#F7F7F7;
+	height: 630px;
+
+}
+
+#short_video h2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+
+}
+/*END Short Video*/
+
+/*footer*/
+#footer{
+	background-color:#76A7F7;
+	height: 300px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+}
+
+
+#alamat{
+	margin-top: 4%;
+	margin-left: 8%;
+	color:white;
+}
+#footer-mid{
+	margin-top: 4%;
+	margin-left: 8%;
+	color:white;
+}
+
+#footer-mid a{
+	
+	
+	color:white;
+}
+
+#footer-sosmed{
+	margin-top: 4%;
+	margin-left: 8%;
+	color:white;
+	font-size: 34px;
+}
+
+#credit{
+	margin-top:3%;
+	border-top:solid 1px #fff;
+	text-align: center;
+	color: white;
+}
+
+#credit p{
+	margin-top:1%;
+}
+/*END footer*/
+/*Other Custom*/
+
+/**/
+
+

@@ -5,12 +5,10 @@
     </div>
     <ul id="menu" class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-  
+      <li><a href="#">About</a></li>  
     </ul>
    
-      <a id="login" class="btn btn-primary pull-right" href="#" data-toggle="modal" data-target="#myModal"><span><i class="glyphicon glyphicon-user"></i></span>  Login Now</a>
+      <a id="login" class="btn btn-primary btn-lg pull-right" href="#" data-toggle="modal" data-target="#myModal"><span><i class="glyphicon glyphicon-user"></i></span>  Login Now</a>
    
   </div>
 </nav>
