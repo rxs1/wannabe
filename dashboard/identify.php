@@ -26,7 +26,7 @@
 			<div class="col-md-12"><hr></div>
 				<div class="col-md-12" id="decision">
 					<div class="col-md-5">
-						<p id="text-left"><b>Identify Using Personality Test <a href="identify.php"> <i class="fa fa-search" aria-hidden="false"></i> Now!</a></b> .</p>
+						<p id="text-left"><b>Identify Using Personality Test <a href="identify-test.php"> <i class="fa fa-search" aria-hidden="false"></i> Now!</a></b> .</p>
 					</div>
 
 					<div class="col-md-1">
@@ -41,6 +41,7 @@
 
 				<div class="col-md-12" id="list-profesional">
 					<?php
+					$checked="";
 						session_start();
 						if(isset($_SESSION['result'])){
 							?>
@@ -49,13 +50,16 @@
 							</p>
 
 							<?php
+
+							unset($_SESSION['result']);
+							$checked="checked='checked'";
 						}
 					?>
 					<br>
 					<br>
 					<div class="radio">
 						<form action="choose-profesional.php">
-							<label><input type="radio" name="optradio"> <i class="fa fa-desktop" aria-hidden="true" ></i> Programmer</label>
+							<label><input type="radio" name="optradio" <?=$checked?>	> <i class="fa fa-desktop" aria-hidden="true" ></i> Programmer</label>
 							</div>
 							<div class="radio">
 							  <label><input type="radio" name="optradio"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Teacher</label>
