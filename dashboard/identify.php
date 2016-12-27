@@ -25,22 +25,8 @@
 			<div class="row">
 			<div class="col-md-12"><hr></div>
 				<div class="col-md-12" id="decision">
-					<div class="col-md-5">
-						<p id="text-left"><b>Identify Using Personality Test <a href="identify-test.php"> <i class="fa fa-search" aria-hidden="false"></i> Now!</a></b> .</p>
-					</div>
-
-					<div class="col-md-1">
-						<p id="or">OR</p>
-					</div>
-
-					<div class="col-md-5">
-						<p id="text-left"><b>Choose your Desire Profesional Job Below.</p>
-					</div>
-				</div>	
-				<div class="col-md-12"><hr></div>
-
-				<div class="col-md-12" id="list-profesional">
-					<?php
+				
+						<?php
 					$checked="";
 						session_start();
 						if(isset($_SESSION['result'])){
@@ -53,8 +39,29 @@
 
 							unset($_SESSION['result']);
 							$checked="checked='checked'";
+						}else{
+
+							?>
+								<div class="col-md-12">
+									<p id="text-left">Identify Using Personality Test <a href="identify-test.php"> <b><i class="fa fa-search" aria-hidden="false"></i> Now!</a></b> .</p>
+								</div>
+
+								<div class="col-md-12">
+									<center><b><p id="or">OR</p></b></center>
+								</div>
+
+								<div class="col-md-12">
+									<p id="text-left">Choose your Desire Profesional Job Below.</p>
+								</div>
+
+							<?php
 						}
 					?>
+				</div>	
+				<div class="col-md-12"><hr></div>
+
+				<div class="col-md-12" id="list-profesional">
+
 					<br>
 					<br>
 					<div class="radio">
