@@ -73,9 +73,33 @@
 								        </a>
 								      </h4>
 								    </div>
-								    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								    <div id="collapseOne" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
 								      <div class="panel-body">
-								        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								        <p>What is Java?</p>
+										<p>Java is a 3rd Generation Object Oriented programming Language, developed by James Gosling in the year 1995. It was initially codenamed as Green and hypothetically called Oak named after the Oak tree outside Gosling’s house.
+										It is case sensitive and has a unique two step translation process that includes both Compilation and Interpretation which makes Java Platform independent.
+										</p>
+										<p>
+										What is Procedure Oriented Programming Language?
+										Pop is a Procedural Oriented Programming Language. In this, the stress is laid on function rather than data. Data may be kept floating throughout the Programming. Hence by scanning the whole program from beginning to the end and we can rectify any error caused. E.g. of POP based language are GW-BASIC, C, etc…
+										Characteristics of POP
+										</p>
+										<p>
+										1) Emphasis is laid on functions (Logical steps).
+										</p>
+										<p>
+										2) Functions share global data.
+										</p>
+										<p>
+										3) Data values can keep floating from one function to another.
+										</p>
+										<p>
+										4) Uses top down approach of programming.
+										</p>
+
+											<br>
+											<a href="https://nilabja.wordpress.com/computers/theory-of-java/"><strong>source</strong></a>
+											<br>
 								      </div>
 								    </div>
 								  </div>
@@ -99,8 +123,9 @@
 								    </div>
 								    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								      <div class="panel-body">
-								        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-								      </div>
+								       <h3> Follow the Instruction in This Video</h3>
+								       <iframe width="560" height="315" src="https://www.youtube.com/embed/ue3bhCZ60Jk" frameborder="0" allowfullscreen></iframe>
+								       </div>
 								    </div>
 								  </div>
 								  <div class="panel panel-default">
@@ -123,7 +148,38 @@
 								    </div>
 								    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								      <div class="panel-body">
-								        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+											<p>In this section, our plan is to lead you into the world of Java programming by taking you through the three basic steps required to get a simple program running. As with any application, you need to be sure that Java is properly installed on your computer. You also need an editor and a terminal application. Here are system specific instructions for three popular home operating systems. [ Mac OS X · Windows · Linux ]</p>
+
+											<p>Programming in Java. We break the process of programming in Java into three steps:
+											<ol>
+											<li><b>Create</b> the program by typing it into a text editor and saving it to a file named, say, MyProgram.java.
+											</li>
+											<li><b>Compile</b> it by typing "javac MyProgram.java" in the terminal window.</li>
+											
+											<li><b>Execute</b> (or run) it by typing "java MyProgram" in the terminal window.</lo>
+											</ol>
+											</p>
+											<p>
+
+											The first step creates the program; the second translates it into a language more suitable for machine execution (and puts the result in a file named MyProgram.class); the third actually runs the program.
+											</p>
+											<code>
+												
+																		public class Hello World{
+																			<br>
+																		    &nbsp;&nbsp;&nbsp;public static void main(String[] args) {
+																		    <br>
+																		        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Prints Hello, World to the terminal window.
+																		    <br>
+																		       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println('Hello, World');
+																		    <br>
+																		    &nbsp;&nbsp;&nbsp;}
+																		    <br>
+																		}
+											</code>
+											<br>
+											<a href="http://introcs.cs.princeton.edu/java/11hello/"><strong>source</strong></a>
+											<br>
 								      </div>
 								    </div>
 								  </div>
@@ -147,7 +203,7 @@
 								    </div>
 								    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 								      <div class="panel-body" >
-								         <a id="login" class="btn btn-primary btn-lg " href="#" data-toggle="modal" data-target="#myModal"><span><i class="glyphicon glyphicon-user"></i></span>  Do Test Now !</a>
+								         <a style="color: white" id="login" class="btn btn-primary btn-lg " href="#" data-toggle="modal" data-target="#myModal"><span><i class="glyphicon glyphicon-user"></i></span>  Do Test Now !</a> 
 								         <!-- Modal -->
 										<div id="myModal" class="modal fade" role="dialog">
 										  <div class="modal-dialog">
@@ -175,7 +231,7 @@
 																		    <br>
 																		        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Prints Hello, World to the terminal window.
 																		    <br>
-																		       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println('Hello, World');
+																		       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println('I Love PBK');
 																		    <br>
 																		    &nbsp;&nbsp;&nbsp;}
 																		    <br>
