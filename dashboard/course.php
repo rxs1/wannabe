@@ -55,6 +55,14 @@
 						        <h3>Foundation Of Programming</h3>
 						        <p>This is one of famous course around programmer</p>
 						        <p><a href="view-detail.php" class="btn btn-primary" role="button">Learn Now</a> 
+						        <i style="
+								  background-color: #1f9eba;color: #fff;  border-top-right-radius: 50%;
+								  border-top-left-radius: 50%;
+								  border-bottom-right-radius: 50%;
+								  border-bottom-left-radius: 50%;
+								  border: 3px solid #ffffff;
+								  padding:10px;
+								" class="glyphicon glyphicon-check"></i>
 						      </div>
 						    </div>
 						  </div>
@@ -64,7 +72,14 @@
 						      <div class="caption">
 						        <h3>Advance Programming</h3>
 						        <p>This is one of famous course around programmer step 2 from <b>Foundation Of Programming</b></p>
-						        <p><a href="view-detail.php" class="btn btn-primary" role="button">Learn Now</a> 
+						        <p><a href="##" class="btn btn-primary" role="button">Learn Now</a> <i style="
+								  background-color: #ba1f1f;color: #fff;  border-top-right-radius: 50%;
+								  border-top-left-radius: 50%;
+								  border-bottom-right-radius: 50%;
+								  border-bottom-left-radius: 50%;
+								  border: 3px solid #ffffff;
+								  padding:10px;
+								" class="glyphicon glyphicon-check"></i>
 						      </div>
 						    </div>
 						  </div>
@@ -74,13 +89,46 @@
 						      <div class="caption">
 						        <h3>Basic Web Peogramming</h3>
 						        <p>code Website with(PHP, CSS, HTML, Javascript and etc)</p>
-						        <p><a href="view-detail.php" class="btn btn-primary" role="button">Learn Now</a> 
+						        <p><a href="##" class="btn btn-primary" role="button">Learn Now</a> <i style="
+								  background-color: #ba1f1f;color: #fff;  border-top-right-radius: 50%;
+								  border-top-left-radius: 50%;
+								  border-bottom-right-radius: 50%;
+								  border-bottom-left-radius: 50%;
+								  border: 3px solid #ffffff;
+								  padding:10px;
+								" class="glyphicon glyphicon-check"></i>
 						      </div>
 						    </div>
 						  </div>
 						</div>
+							<p id="description-color">Color Description:
+								<i style="
+								  background-color: #59ba1f;color: #fff;  border-top-right-radius: 50%;
+								  border-top-left-radius: 50%;
+								  border-bottom-right-radius: 50%;
+								  border-bottom-left-radius: 50%;
+								  border: 3px solid #ffffff;
+								  padding:10px;
+								" class="glyphicon glyphicon-check"></i> Done 
 
-                        
+								<i style="
+								  background-color: #1f9eba;color: #fff;  border-top-right-radius: 50%;
+								  border-top-left-radius: 50%;
+								  border-bottom-right-radius: 50%;
+								  border-bottom-left-radius: 50%;
+								  border: 3px solid #ffffff;
+								  padding:10px;
+								" class="glyphicon glyphicon-check"></i> In Progress
+
+								<i style="
+								  background-color: #ba1f1f;color: #fff;  border-top-right-radius: 50%;
+								  border-top-left-radius: 50%;
+								  border-bottom-right-radius: 50%;
+								  border-bottom-left-radius: 50%;
+								  border: 3px solid #ffffff;
+								  padding:10px;
+								" class="glyphicon glyphicon-check"></i> Did'nt Learn yet 
+								</p>
                     </div>
                 </div>
             </div>
