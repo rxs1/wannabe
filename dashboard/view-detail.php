@@ -42,12 +42,13 @@
                       	<div class="col-md-12">
                        		<div class="pull-right" id="breadcumbs">
 		                      	<ol class="breadcrumb">
-								  <li><a href="#">Course</a></li>
-								  <li><a href="#" class="active">Foundation of Programming</a></li>
+								  <li><a href="course.php">Course</a></li>
+								  <li><a href="view-detail.php" class="active">Foundation of Programming</a></li>
 								</ol>
                       		</div>
-                      		<div class="pull-left" id="breadcumbs">
+                      		<div class="pull-left" style="font-size: 24px;">
 		                      <p>Timeline</p>
+		                      <hr>
                       		</div>
                       	</div>
                       <div class="row">
@@ -72,7 +73,7 @@
 											<div class="timeline-panel">
 												<div class="timeline-heading">
 													<h4 class="timeline-title"><a href="detail-materi.php">Array</a></h4>
-													<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 Week ago </small></p>
+													<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 week ago </small></p>
 												</div>
 												<div class="timeline-body">
 													<p>An array in PHP is actually an ordered map. A map is a type that associates values to keys. This type is optimized for several different uses; it can be treated as an array, list (vector).</p>

@@ -37,7 +37,12 @@
                     <a href="logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out</a>
                 </li>
              
-                </li>
             </ul>
+            <div id="footer-sidebar" style=" position: absolute;bottom: 0;text-align: center;">
+                <div style="position: relative; left: 20%; color:grey;">
+                    <center>  <p>Copyright &copy; 2016</p></center>
+                    <center>  <p>WannaBe Profesional Course</p></center>
+                </div>
+            </div>
         </div>
         <!-- /#sidebar-wrapper -->

@@ -207,8 +207,62 @@ font-family: 'Roboto Condensed', sans-serif;
     100% { transform: rotate(360deg); }
 }
 /*END LOADER*/
-/*Other Custom*/
+@import url('http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
 
-/**/
+
+#accordions a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#accordions p {
+    font-size:1.1em;
+    margin: 1em 0;
+}
+
+
+
+
+#accordions h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+#accordions ul {
+    list-style: none;
+    padding: 0;
+  
+    .inner {
+        padding-left: 1em;
+        overflow: hidden;
+        display: none;
+      
+        &.show {
+          /*display: block;*/
+        }
+    }
+  
+#accordions    li {
+        margin: .5em 0;
+      
+        a.toggle {
+            width: 100%;
+            display: block;
+            background: rgba(0,0,0,0.78);
+            color: #fefefe;
+            padding: .75em;
+            border-radius: 0.15em;
+            transition: background .3s ease;
+          
+            &:hover {
+                background: rgba(0, 0, 0, 0.9);
+            }
+        }
+    }
+}
+/*Accordion*/
+
+/*Accordion END*/
 
 
