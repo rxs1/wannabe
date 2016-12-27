@@ -31,7 +31,7 @@
 
               <div class="col-md-10 col-md-offset-1">
                 <h3>Choose your desired account:</h3>
-                <a href="#"><img src="assets/img/login-with.png"></a>  
+                <a href="auth.php"><img src="assets/img/login-with.png"></a>  
               </div>
           </div>
         </div>

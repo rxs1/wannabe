@@ -21,7 +21,7 @@ if(isset($_SESSION['username'])){
 <br>
 <center><p style="font-family: 'Roboto Condensed', sans-serif;">Please Wait. Your Data in Process...</p></center>
 <?php
-header('refresh: 3; url=dashbord/index.php'); // redirect the user after 10 seconds
+header('refresh: 3; url=dashboard/index.php'); // redirect the user after 10 seconds
 #exit; // note that exit is not required, HTML can be displayed.
 
 ?>
