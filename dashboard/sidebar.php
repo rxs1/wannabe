@@ -2,7 +2,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a id="logo" class="navbar-brand" href="#"><span><img id="logo-img" height="45" width="45" src="../assets/img/logo.png"></span>WannaBe</a>
+                    <a id="logo" class="navbar-brand" href="index.php"><span><img id="logo-img" height="45" width="45" src="../assets/img/logo.png"></span>WannaBe</a>
                 </li>
                 <div id="avatar">
 
@@ -34,7 +34,7 @@
                     <a href="#"> <i class="fa fa-weixin" aria-hidden="true"></i> Forum</a>
                 </li>
                 <li>
-                    <a href="logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out</a>
+                    <a href="../index.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out</a>
                 </li>
              
             </ul>
