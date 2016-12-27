@@ -5,7 +5,7 @@
                     <div class="col-lg-12" id="dashboard">
                         <a href="#menu-toggle"  id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i> Toggle</a>
                         <p id="identify" class="pull-right">
-                            Identify your talent <a href="identify.php"> <i class="fa fa-search" aria-hidden="false"></i> Now!</a>
+                           <a href="identify.php"> <i class="fa fa-search" aria-hidden="false"></i>  Identify your talent !</a>
                         </p>
                         <h1>Your Dashboard</h1>
                         <hr>
